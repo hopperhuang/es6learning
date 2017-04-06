@@ -54,4 +54,9 @@ describe('Array method test',function(){
 		let index = testArray.findIndex((value) => value>30);
 		expect(index).to.be.equal(2);
 	});
+	it('Array.prototyp.fill',function(){
+		let testArray = ['a','b','c'];
+		testArray.fill(7,2,3);
+		expect(testArray).to.deep.equal(['a','b',7]);
+	});
 });
