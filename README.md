@@ -8,6 +8,7 @@ git clone https://github.com/hopperhuang/es6learning.git
 cd es6learning
 cnpm install
 cnpm install webpack -g
+cnpm install mocha -g
 ```
 
 运行:
