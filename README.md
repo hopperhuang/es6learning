@@ -10,6 +10,7 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 cnpm install
 cnpm install webpack -g
 cnpm install mocha -g
+cnpm install babel-cli -g
 ```
 
 运行:
