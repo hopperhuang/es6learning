@@ -1,4 +1,5 @@
-var chai = require('chai');
+import chai from 'chai';
+import 'babel-polyfill';
 var expect = chai.expect;
 describe('first test',function(){
 	it('test expect',function(){

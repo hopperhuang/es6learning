@@ -4,15 +4,19 @@
   "description": "learning es6",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --watch --recursive --compilers js:babel-core/register"
+    "test": "mocha --watch --recursive --compilers js:babel-core/register",
+    "build": "babel ./test -d ./translate"
   },
   "author": "huangjiawei",
   "license": "ISC",
   "devDependencies": {
+    "babel-cli": "^6.24.0",
     "babel-core": "^6.24.0",
     "babel-preset-es2015": "^6.24.0",
     "babel-preset-stage-0": "^6.22.0",
+    "brace-expansion": "^1.1.6",
     "chai": "^3.5.0",
+    "graceful-readlink": "^1.0.1",
     "mocha": "^3.2.0",
     "mochawesome": "^2.0.4"
   },
