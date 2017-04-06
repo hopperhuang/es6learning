@@ -28,6 +28,10 @@ npm test
 4.	[number对象的新特性](./test/number.js)
 5.	[array对象的新特性](./test/array.js)
 
+Babel
+----
+1. [利用babel进行转码](./babel.md)
+
 总结
 ----
 
