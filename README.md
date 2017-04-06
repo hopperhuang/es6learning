@@ -6,6 +6,7 @@
 ```js
 git clone https://github.com/hopperhuang/es6learning.git
 cd es6learning
+npm install -g cnpm --registry=https://registry.npm.taobao.org
 cnpm install
 cnpm install webpack -g
 cnpm install mocha -g
