@@ -59,4 +59,42 @@ describe('Array method test',function(){
 		testArray.fill(7,2,3);
 		expect(testArray).to.deep.equal(['a','b',7]);
 	});
+	it('Array.prototype.incluedes',function(){
+		let testArray = [1,2,3];
+		expect(testArray.includes(2)).to.be.equal(true);
+	});
+	it('Array.prototype.some',function(){
+		let testValue = [1,2,3];
+		function includes(value){
+			return testValue.some(function(currentValue){
+				return currentValue === value;
+			});
+		}
+		expect(includes(4)).to.be.equal(false);
+	});
+	it('Array.prototype.keys',function(){
+		let testArray = [1,2,3];
+		let checkArray = [];
+		for(let value of testArray.keys()){
+			checkArray.push(value);
+		}
+		expect(checkArray).to.deep.equal([0,1,2]);
+	});
+	it('Array.prototype.values',function(){
+		let testArray = [1,2,3];
+		let checkArray = [];
+		for(let value of testArray.values()){
+			checkArray.push(value);
+		}
+		expect(checkArray).to.deep.equal([1,2,3]);
+	});
+	it('Array.prototype.entries',function(){
+		let testArray = [1,2,3];
+		let checkArray = [];
+		for(let value of testArray.entries()){
+			checkArray.push(value);
+			break;
+		}
+		expect(checkArray).to.deep.equal([[0,1]]);
+	});
 });
