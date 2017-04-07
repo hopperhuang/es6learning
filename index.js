@@ -1,8 +1,9 @@
-import chai from 'chai';
-import 'babel-polyfill';
-var expect = chai.expect;
-describe('first test',function(){
-	it('test expect',function(){
-		expect(1).to.be.equal(1);
-	})
-});
+var x = 1;
+function foo(x, y = function() { x = 2; }) {
+  var x = 3;
+  y();
+  console.log(x);
+}
+
+foo() // 3
+x // 1
