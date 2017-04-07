@@ -32,7 +32,7 @@ npm test
 7.	[object的新特性](./test/object.js)
 8.	[Symbol](./test/symbol.js)
 9.	[Set and Map](./test/setAndMap.js)
-
+10.	[proxy](./test/proxy.js)
 Babel
 ----
 1. [利用babel进行转码](./babel.md)
