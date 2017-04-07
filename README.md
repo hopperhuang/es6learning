@@ -28,6 +28,8 @@ npm test
 3.	[string对象的新特性](./test/string.js)
 4.	[number对象的新特性](./test/number.js)
 5.	[array对象的新特性](./test/array.js)
+6.	[function的新特性](./test/function.js)
+7.	[object的新特性](./test/object.js)
 
 Babel
 ----
