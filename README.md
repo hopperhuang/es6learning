@@ -30,6 +30,8 @@ npm test
 5.	[array对象的新特性](./test/array.js)
 6.	[function的新特性](./test/function.js)
 7.	[object的新特性](./test/object.js)
+8.	[Symbol](./test/symbol.js)
+9.	[Set and Map](./test/setAndMap.js)
 
 Babel
 ----

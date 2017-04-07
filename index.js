@@ -1,9 +1,4 @@
-var x = 1;
-function foo(x, y = function() { x = 2; }) {
-  var x = 3;
-  y();
-  console.log(x);
-}
-
-foo() // 3
-x // 1
+let mySymbol = Symbol('name');
+let xiaohong = {};
+xiaohong[mySymbol] = 'xiaohong';
+console.log(xiaohong['mySymbol']);
