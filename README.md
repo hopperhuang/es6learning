@@ -33,6 +33,10 @@ npm test
 8.	[Symbol](./test/symbol.js)
 9.	[Set and Map](./test/setAndMap.js)
 10.	[proxy](./test/proxy.js)
+11. [reflect](./test/reflect.js)
+12.	[Promise](./test/promise.js)
+13. [Iterator](./test/iterator.js)
+14.	[Generator](./test/generator.js)
 
 
 Babel
