@@ -37,6 +37,9 @@ npm test
 12.	[Promise](./test/promise.js)
 13. [Iterator](./test/iterator.js)
 14.	[Generator](./test/generator.js)
+15. [async](./test/async.js)
+16.	[class](./test/class.js)
+17.	[decorator](./test/decorator.js)
 
 
 Babel
